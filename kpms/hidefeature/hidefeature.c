@@ -21,6 +21,8 @@ KPM_DESCRIPTION("hide features in mounts and maps | args {hook, unhook}");
 static struct filter_keyword filter_keywords[MAX_FILTER_KEYWORDS] = {
     { .keyword = "adb", .len = 0 },
     { .keyword = "module", .len = 0 },
+    { .keyword = "rwxp", .len = 0 },//自己添加的
+    { .keyword = "lsposed", .len = 0 },//自己添加的
     // 可在此添加更多关键词，剩余的保持为 NULL
 };
 static size_t num_keywords = 2; // 当前有效关键词数量
