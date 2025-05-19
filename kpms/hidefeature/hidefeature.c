@@ -25,7 +25,7 @@ static struct filter_keyword filter_keywords[MAX_FILTER_KEYWORDS] = {
     { .keyword = "lsposed", .len = 0 },//自己添加的
     // 可在此添加更多关键词，剩余的保持为 NULL
 };
-static size_t num_keywords = 2; // 当前有效关键词数量
+static size_t num_keywords = 4; // 当前有效关键词数量
 
 typedef int (*vfs_show_func_t)(struct seq_file *, struct vfsmount *);
 typedef void (*map_show_func_t)(struct seq_file *, struct vm_area_struct *);
